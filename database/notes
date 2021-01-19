@@ -1,0 +1,18 @@
+lms_buyer -> buyers
+lms_buyersetup -> lms_buyersetup
+lms_callcenter -> lms_callcenter
+lms_daily_rates -> lms_daily_rates
+lms_lead_paydayuk -> lms_lead_paydayuk
+lms_lead_paydayus -> lms_lead_paydayuses
+lms_lead_paydayuk_log *
+lms_lead_paydayus_log *
+lms_lead_paydayus_publisher *
+lms_log_check_status -> lms_check_status_loggers
+lms_offeraffmap -> lms_offeraffmap
+lms_offers -> offers
+lms_offers_log -> lms_offers_log
+lms_pubbuyermap -> lms_pubbuyermap
+lms_publisher -> lms_partners
+lms_publisher_leadtype -> lms_partner_leadtype
+lms_users
+lms_users

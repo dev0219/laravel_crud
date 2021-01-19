@@ -1,0 +1,234 @@
+{
+  "menu": [
+    {
+      "url": "javascript:void(0)",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "/",
+      "icon": "home",
+      "submenu": [
+        {
+          "url": "/admin",
+          "name": "Dashboard",
+          "i18n": "Dashboard",
+          "slug": "/admin"
+        },
+        {
+          "url": "partner-overview",
+          "name": "Partner Overview",
+          "i18n": "Dashboard",
+          "slug": "partner-overview"
+        },
+        {
+          "url": "buyer-overview",
+          "name": "Buyer Overview",
+          "i18n": "Dashboard",
+          "slug": "buyer-overview"
+        }
+      ]
+    },
+
+    {
+      "url": "javascript:void(0)",
+      "name": "Users",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "users",
+      "icon": "person",
+      "submenu": [
+        {
+          "url": "/users",
+          "name": "List",
+          "slug": "users"
+        },
+        {
+          "url": "/users/create",
+          "name": "Create",
+          "slug": "users-create"
+        }
+      ]
+    },
+
+    {
+      "url": "javascript:void(0)",
+      "name": "Partners",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "partners",
+      "icon": "person",
+      "submenu": [
+        {
+          "url": "/partners",
+          "name": "List",
+          "slug": "partners"
+        },
+        {
+          "url": "/partners/create",
+          "name": "Create",
+          "slug": "partners-create"
+        }
+      ]
+    },
+
+    {
+      "url": "javascript:void(0)",
+      "name": "Buyers",
+      "i18n": "Buyers",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "buyers",
+      "icon": "perm_identity",
+      "submenu": [
+        {
+          "url": "/buyers",
+          "name": "List",
+          "slug": "buyers"
+        },
+        {
+          "url": "buyers/create",
+          "name": "Create",
+          "slug": "buyers-create"
+        },
+        {
+          "url": "buyersetup",
+          "name": "Buyers Setup",
+          "slug": "buyersetup"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Pub Buyer Mapping",
+      "i18n": "Pub Buyer Mapping",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "pubbuyers",
+      "icon": "track_changes",
+      "submenu": [
+        {
+          "url": "pubbuyers",
+          "name": "List",
+          "i18n": "List",
+          "slug": "pubbuyer-list"
+        },
+        {
+          "url": "pubbuyers/create",
+          "name": "Create",
+          "i18n": "Create",
+          "slug": "pubbuyer-create"
+        }
+      ]
+    },
+
+    {
+      "url": "javascript:void(0)",
+      "name": "Lead Type",
+      "i18n": "Lead Type",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "leads",
+      "icon": "track_changes",
+      "submenu": [
+        {
+          "url": "leads",
+          "name": "UK",
+          "i18n": "UK",
+          "slug": "leads-uk"
+        },
+        {
+          "url": "leads",
+          "name": "USA",
+          "i18n": "USA",
+          "slug": "leads-us"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Offers",
+      "i18n": "Offers",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "offers",
+      "icon": "trending_up",
+      "submenu": [
+        {
+          "url": "offers",
+          "name": "List",
+          "i18n": "List",
+          "slug": "offers"
+        },
+        {
+          "url": "offers/create",
+          "name": "Create",
+          "i18n": "Create",
+          "slug": "offers-create"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Reports",
+      "i18n": "Reports",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "reports",
+      "icon": "important_devices",
+      "submenu": [
+        {
+          "url": "reports",
+          "name": "Reports",
+          "slug": "reports"
+        }
+      ]
+    },
+
+    {
+      "navheader": "System Logs",
+      "icon": "more_horiz"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Tech Area",
+      "i18n": "Tech Area",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "icon": "photo_filter",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/telescope",
+          "name": "Telescope",
+          "slug": "telescope"
+        },
+        {
+          "url": "horizon",
+          "name": "Horizon",
+          "slug": "horizon"
+        }
+
+      ]
+    },
+    {
+      "navheader": "Finance Area",
+      "icon": "more_horiz"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Finance Area",
+      "i18n": "Finance Area",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "icon": "photo_filter",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "invoices",
+          "name": "List",
+          "slug": "invoices"
+        }
+      ]
+    },
+    {
+      "url": "Hz",
+      "name": "Support",
+      "i18n": "Support",
+      "class": "waves-effect waves-cyan",
+      "icon": "help_outline",
+      "slug": "support",
+      "newTab": "_blank"
+    }
+  ]
+}

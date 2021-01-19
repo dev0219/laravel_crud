@@ -1,0 +1,51 @@
+{
+  "menu": [
+    {
+      "url": "javascript:void(0)",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "/",
+      "icon": "home",
+      "submenu": [
+        {
+          "url": "/partner_dashboard",
+          "name": "Dashboard",
+          "i18n": "Dashboard",
+          "slug": "/partner_dashboard"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Offers",
+      "i18n": "Offers",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "offers",
+      "icon": "trending_up",
+      "submenu": [
+        {
+          "url": "/partner_offer",
+          "name": "Offers",
+          "i18n": "Offers",
+          "slug": "offers"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Reports",
+      "i18n": "Reports",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "reports",
+      "icon": "important_devices",
+      "submenu": [
+        {
+          "url": "partner_report",
+          "name": "Reports",
+          "slug": "reports"
+        }
+      ]
+    }
+  ]
+}
